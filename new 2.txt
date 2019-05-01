@@ -1,0 +1,70 @@
+
+
+
+1)var x1,x2,y1,y2,dis1,dis2
+dis1= sqrt(x1^2+ y1^2)
+dis2 =sqrt(x2^2+ y2^2)
+
+if(dis1>dis2)
+return x2,y2
+
+if(dis2>dis1)
+return x1,y1
+else
+return x1,y1
+
+
+2)var x1,x2,x3,x4,y1,y2,y3,y4;
+dis1= (sqrt((x2-x1)^2+(y2-y1)^2))
+dis2= (sqrt((x3-x4)^2+(y3-y4)^2))
+if (dis1>dis2)
+return x3,x4,y3,y4
+if (dis2>dis1)
+return x1,x2,y1,y2
+if (dis1==dis2)
+return x1,x2,y1,y2
+
+3)var s
+var text,space,area,face,volume
+if(text==face){
+face=sqrt(2s*s)
+return face;}
+if (text==space){
+space=sqrt(3s*s)
+return space;
+}
+if(text==volume) {
+volume=s*s*s
+return volume;
+if(text==area) {
+area=6s*s
+return area
+}
+
+
+4) var triangle,square,rectangle,circle
+var side1,height1
+var side2
+var width,height2
+var radius
+var area
+if (figure is triangle)
+area=(side1*height1)/2
+returnArea;
+if (figure is square)
+area=side2*side2
+return squareArea;
+if (figure is rectangle)
+area=width*height2
+return rectangleArea;
+if (figure is circle)
+area=3.14*radius*radius
+return circleArea;
+
+
+
+
+
+
+
+
